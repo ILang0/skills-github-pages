@@ -1,8 +1,8 @@
-<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
 
 <div class="header">
-  <img src="/images/IMG_6919.JPG" alt="Profile photo" />
+  <img src="images/IMG_6919.JPG" alt="Profile photo" />
   <div class="header-text">
     <h1>Ian Jang</h1>
     <p class="meta">
