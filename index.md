@@ -4,11 +4,11 @@
 <div class="header">
   <img src="images/IMG_6919.JPG" alt="Profile photo" />
   <div class="header-text">
-    <h1>Ian Jang</h1>
+    <h1>I Lang Jung</h1>
     <p class="meta">
-      Charlottesville, VA ·
-      <a href="mailto:ian@example.com">ian@example.com</a> ·
-      <a href="https://www.linkedin.com/in/yourlinkedin">LinkedIn</a>
+      Washington, D.C. ·
+      <a href="mailto:ian@example.com">ijung1214@gmail.com</a> ·
+      <a href="www.linkedin.com/in/ilangjung">LinkedIn</a>
     </p>
   </div>
 </div>
