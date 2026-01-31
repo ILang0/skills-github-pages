@@ -1,28 +1,58 @@
+/* Header container */
 .header {
-  display: flex;
-  align-items: center;
-  gap: 24px;
+  display: flex;                /* horizontal layout */
+  align-items: center;          /* vertical alignment */
+  justify-content: flex-end;    /* pushes content to the right */
+  gap: 20px;                    /* space between image and text */
+  flex-wrap: wrap;              /* allows wrapping on small screens */
+  margin: 20px 0;
 }
 
+/* Profile image */
 .header img {
-  width: 120px;
-  border-radius: 50%;
-  flex-shrink: 0;
+  width: 120px;                 /* adjust size as needed */
+  height: 120px;
+  border-radius: 50%;           /* makes it circular */
+  flex-shrink: 0;               /* prevents shrinking */
+  object-fit: cover;            /* keeps image proportions */
 }
 
+/* Text container next to the image */
 .header-text {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column;       /* stack name and meta info */
+  justify-content: center;      /* vertical alignment to image */
+  text-align: right;            /* align text to the right */
 }
 
+/* Name styling */
 .header-text h1 {
   margin: 0;
   line-height: 1.2;
+  font-size: 2rem;
 }
 
+/* Meta info styling */
 .header-text .meta {
-  margin: 4px 0 0;
+  margin-top: 4px;
   font-size: 0.95rem;
   color: #555;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 640px) {
+  .header {
+    justify-content: center;    /* center on mobile */
+    flex-direction: column;     /* stack image on top */
+    text-align: center;
+  }
+
+  .header-text {
+    text-align: center;
+  }
+
+  .header img {
+    width: 100px;
+    height: 100px;
+  }
 }
