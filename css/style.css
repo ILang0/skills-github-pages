@@ -12,8 +12,8 @@
 
 /* Profile image */
 .header img {
-  width: 180px;                 /* bigger image */
-  height: 180px;
+  width: 220px;                 /* bigger image */
+  height: 220px;
   border-radius: 50%;           /* makes it circular */
   flex-shrink: 0;               /* prevents shrinking */
   object-fit: cover;            /* keeps image proportions */
