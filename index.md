@@ -1,6 +1,18 @@
-<h1 align="center">I Lang Jung</h1>
-<p align="center">ijung1214@gmail.com | 617-637-5502 | Washington, D.C.</p>
-<p align="center">www.linkedin.com/in/ilangjung</p>
+<link rel="stylesheet" href="/css/style.scss">
+
+
+<div class="header">
+  <img src="/images/IMG_6919.JPG" alt="Profile photo" />
+  <div class="header-text">
+    <h1>Ian Jang</h1>
+    <p class="meta">
+      Charlottesville, VA ·
+      <a href="mailto:ian@example.com">ian@example.com</a> ·
+      <a href="https://www.linkedin.com/in/yourlinkedin">LinkedIn</a>
+    </p>
+  </div>
+</div>
+
 
 
 ## Education
