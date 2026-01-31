@@ -2,24 +2,29 @@
 <div class="header">
   <img src="images/IMG_6919.JPG" alt="Profile photo" />
   <div class="header-text">
-    <h1>Ian Jang</h1>
+    <h1>I Lang Jung</h1>
     <p class="meta">
-      Charlottesville, VA ·
-      <a href="mailto:ian@example.com">ian@example.com</a> ·
+      Washington, D.C. ·
+      <a href="mailto:ian@example.com">ijung1214@gmail.com</a> ·
       <a href="https://www.linkedin.com/in/yourlinkedin">LinkedIn</a>
     </p>
   </div>
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
+
 ## Education
+
 **University of Virginia** — Charlottesville, VA  
 **B.A. in Computer Science**  
 *May 2022*
+
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
+
 ## Work Experience & Relevant Projects
+
 ### Pariveda — Technical Consultant  
 *June 2022 – Present*
 - Led a five-member DevOps team maintaining and building new features for an education services client, with a focus on standardizing best practices.
@@ -37,11 +42,15 @@
 *September 2018 – May 2019*
 - Studied traffic models and GIS technology to predict roadway noise levels for the Split Pairs Project in Lynchburg, Virginia.
 - Analyzed field-collected data using Excel and contributed to ongoing research on the impact of traffic noise on surrounding neighborhoods.
+
 </div>
 
-<div class="section">
+<div class="section" markdown="1">
+
 ## Skills & Certification
+
 - **Technologies:** AWS, Java, TypeScript, Python, Oracle SQL, Spring Boot, Serverless, AWS CDK, React
 - **Certification:** AWS Certified Solutions Architect – Associate
 - **Languages:** Fluent in Korean; conversational in Chinese
+
 </div>
