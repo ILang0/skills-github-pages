@@ -1,6 +1,7 @@
-<h1 align="center">Ian Jang</h1>
-**ijung1214@gmail.com | 617-637-5502 | Washington, D.C.**
-**www.linkedin.com/in/ilangjung**
+<h1 align="center">I Lang Jung</h1>
+<p align="center">ijung1214@gmail.com | 617-637-5502 | Washington, D.C.</p>
+<p align="center">www.linkedin.com/in/ilangjung</p>
+
 
 ## Education
 
