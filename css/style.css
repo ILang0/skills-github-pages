@@ -1,6 +1,6 @@
-/* Fun gradient background for PowerPoint night! */
+/* Clean white background */
 body {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: white;
   min-height: 100vh;
   margin: 0;
   padding: 20px;
@@ -14,14 +14,14 @@ body > * {
   margin-right: auto;
 }
 
-/* Header container */
+/* Header container with purple gradient! */
 .header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
   gap: 30px;
   flex-wrap: wrap;
-  background: white;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -35,8 +35,8 @@ body > * {
   border-radius: 50%;
   flex-shrink: 0;
   object-fit: cover;
-  border: 5px solid #667eea;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  border: 5px solid white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 /* Text container next to the image */
@@ -53,59 +53,44 @@ body > * {
   line-height: 1.2;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #2d3748;
+  color: white;
 }
 
 /* Meta info styling */
 .header-text .meta {
   margin: 0;
   font-size: 1rem;
-  color: #555;
+  color: rgba(255, 255, 255, 0.95);
   line-height: 1.6;
 }
 
 .header-text .meta a {
-  color: #667eea;
+  color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
 .header-text .meta a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid white;
 }
 
-/* Style for main content sections */
+/* Section headers */
 h2 {
-  background: white;
-  padding: 20px 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  margin: 30px auto 20px;
+  margin: 30px auto 15px;
   color: #2d3748;
   font-size: 1.8rem;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #667eea;
 }
 
-/* Style paragraphs and content after headers */
-h2 ~ p,
-h2 ~ ul,
-h2 ~ hr,
-h3,
-h3 ~ p,
-h3 ~ ul {
-  background: white;
-  padding: 30px 40px;
-  border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  margin-bottom: 20px;
-  line-height: 1.6;
-}
-
-/* Section headers (h3) */
+/* Subsection headers (h3) */
 h3 {
   font-size: 1.4rem;
   font-weight: 600;
   color: #2d3748;
-  margin-top: 30px;
+  margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 /* Horizontal rules */
@@ -118,10 +103,17 @@ hr {
 /* Lists */
 ul {
   padding-left: 20px;
+  line-height: 1.6;
 }
 
 li {
   margin-bottom: 10px;
+  color: #4a5568;
+}
+
+/* Paragraphs */
+p {
+  line-height: 1.6;
   color: #4a5568;
 }
 
