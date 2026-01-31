@@ -21,7 +21,7 @@ body > * {
   justify-content: flex-start;
   gap: 30px;
   flex-wrap: wrap;
-  background: #4a5568;
+  background: white;
   padding: 40px;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
@@ -53,7 +53,7 @@ body > * {
   line-height: 1.2;
   font-size: 2.5rem;
   font-weight: 700;
-  color: #4a5568;
+  color: #2d3748;
 }
 
 /* Meta info styling */
@@ -86,7 +86,7 @@ body > * {
 /* Section headers */
 h2 {
   margin: 0 0 20px 0;
-  color: #4a5568;
+  color: #2d3748;
   font-size: 1.8rem;
   padding-bottom: 15px;
   border-bottom: 3px solid #667eea;
@@ -96,7 +96,7 @@ h2 {
 h3 {
   font-size: 1.4rem;
   font-weight: 600;
-  color: #4a5568;
+  color: #2d3748;
   margin-top: 25px;
   margin-bottom: 10px;
 }
@@ -122,7 +122,7 @@ ul {
 
 li {
   margin-bottom: 10px;
-  color: white;
+  color: #4a5568;
 }
 
 /* Paragraphs */
@@ -134,7 +134,7 @@ p {
 
 /* Bold text */
 strong {
-  color: white;
+  color: #2d3748;
   font-weight: 600;
 }
 
