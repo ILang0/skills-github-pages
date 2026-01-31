@@ -1,6 +1,6 @@
-I LANG JUNG
-ijung1214@gmail.com | 617-637-5502 | Washington, D.C.
-www.linkedin.com/in/ilangjung
+<h1 align="center">Ian Jang</h1>
+**ijung1214@gmail.com | 617-637-5502 | Washington, D.C.**
+**www.linkedin.com/in/ilangjung**
 
 ## Education
 
