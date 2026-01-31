@@ -1,3 +1,7 @@
+I LANG JUNG
+ijung1214@gmail.com | 617-637-5502 | Washington, D.C.
+www.linkedin.com/in/ilangjung
+
 ## Education
 
 **University of Virginia** — Charlottesville, VA  
